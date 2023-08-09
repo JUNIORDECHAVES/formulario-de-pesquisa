@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root{
+    --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-weight: 400;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #f3f3f3;
+    background-color: url;
+    background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header{
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-size: 1.125;
+  }
+  
+  h1,
+  p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+main{
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(27, 27, 50, 0.7);
+    font-size: 1.1em;
+}
+div{
+    padding-bottom: 20px;
+}
+.checkbox {
+    position: relative;
+    top: -5px;
+}
+input[type=text], input[type=number], select{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+input[type=checkbox]{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+ul{
+    list-style-type: none;
+    font-size: 1em;
+}
+textarea{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 180px;
+    border-radius: 5px;
+}
+#submitButton{
+    height: 50px;
+    width: 100%;
+    background-color: var(--color-green);
+    border: none;
+    color:#fff;
+    cursor: pointer;
+}

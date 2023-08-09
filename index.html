@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesquisa anual</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+</head>
+<body>
+    <header>
+        <h1>formulário de pesquisa</h1>
+        <p>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+    </header>
+    <main>
+        <section>
+            <form action="pesquisa.html" method="post" autocomplete="on">
+                <div>
+                    <label for="nome1">Nome Completo:</label> <br>
+                    <input type="text" name="nome" id="nome1" autocomplete="name"  placeholder="   Digite seu-nome" required></div>
+                    <div>
+                        <label for="iemail">E-mail: <br></label>
+                        <input type="text" name="email" id="iemail" autocomplete="email"  placeholder="   Digite seu E-mail" required>
+                    </div>
+                </div>
+                </div>
+                <div>
+                    <label for="iidade">sua idade <br></label>
+                    <input type="number" name="idade" id="iidade" min="14" required placeholder="   Digite sua Idade">
+                </div>
+                <div>
+                    <label>Qual opção melhor descreve sua função atual? <br></label>
+                    <select name="#" id="função">
+                        <option selected disabled hidden >Selecione sua função autal</option>
+                        <option value="estudante">estudante</option>
+                        <option value="trabalho em tempo integral">trabalho em tempo integral</option>
+                        <option value="estudante em tempo integral">estudante em tempo integral</option>
+                        <option value="prefiro não dize">prefiro não dize</option>
+                        <option value="ou">outros</option>
+                        
+                    </select>
+                </div>
+                <div>
+                    <p>Você recomendaria o freeCodeCamp a um amigo?</p>
+                    <ul>
+                        <li><input type="radio" name="valor" id="s"><label for="s"> sim</label></li>
+                        <li>
+                            <input type="radio" name="valor" id="T">
+                            <label for="T"> Talvez</label>
+                        </li>
+                        <li><input type="radio" name="valor" id="n"><label for="n"> não</label></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Qual é o seu recurso favorito do freeCodeCamp? </p>
+                    <select name="recurso fav" id="recurso favorito">
+                        <option selected disabled hidden>selecione uma opção</option>
+                        <option value="desafios">desafios</option>
+                        <option value="projetos">projetos</option>
+                        <option value="comunidades">comunidades</option>
+                        <option value="codigo aberto">codigo aberto</option>
+                    </select>
+                </div>
+                <div>
+                    <p>O que você gostaria de ver melhorado? <small>(Marque todos os que se aplicam)</small> </p>
+                    <ul >
+                        <li><input type="checkbox" name="pfe" id="ipfe"><label class="checkbox" for="ipfe"> projetos fornt-end</label></li>
+
+                        <li><input type="checkbox" name="pbe" id="ipbe"><label class="checkbox" for="ipbe">projetos back-end</label></li>
+
+                        <li><input type="checkbox" name="vd" id="ivd"><label class="checkbox" for="ivd">visualização de dados</label></li>
+
+                        <li><input type="checkbox" name="d" id="id"><label class="checkbox" for="id">desafios</label></li>
+
+                        <li><input type="checkbox" name="cca" id="icca"><label for="icca" class="checkbox" >Comunidade de código aberto</label></li>
+
+                        <li><input type="checkbox" name="sag" id="isag"><label class="checkbox" for="isag">Salas de ajuda do Gitter</label></li>
+
+                        <li><input type="checkbox" name="v" id="iv"><label class="checkbox" for="iv">vídeos</label></li>
+
+                        <li><input type="checkbox" name="ec" id="iec"><label class="checkbox" for="iec">Encontros da cidade</label></input></li>
+
+                        <li><input type="checkbox"  name="w" id="iw"><label  class="checkbox"for="iw">wiki</label></input></li>
+
+                        <li><input type="checkbox" name="f" id="if"><label class="checkbox"for="if">Fórum</label></input></li>
+
+                        <li><input type="checkbox" name="ca" id="ica"><label class="checkbox" for="ica">Cursos adicionais</label></input></li>    
+                    </ul>
+                </div>
+                <div>
+                    <p>Algum comentário ou sugestão?</p> 
+                    <textarea placeholder="  escreva seu comentário aqui" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input id="submitButton" type="submit" value="enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

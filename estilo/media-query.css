@@ -1,0 +1,16 @@
+@charset "UTF-8";
+ 
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    main{
+       width: 90%;
+       margin: auto;
+    }
+}
+@media screen and (min-width: 992px){
+    main{
+        width: 800px;
+        margin: auto;
+    }
+   
